@@ -45,5 +45,5 @@ def predict():
     # Pass the prediction to the HTML template
     return render_template('predict.html', prediction_result=formatted_prediction, production = total)
 
-if __name__ == '__main__':
-    app.run(debug=True)
+#if __name__ == '__main__':
+   #app.run(debug=True)
