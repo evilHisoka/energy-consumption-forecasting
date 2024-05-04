@@ -1,0 +1,71 @@
+
+    /* Sidebar Div */
+    body {
+        background-color: #f5f2e0db;
+    }
+    
+    .b{
+        display: flex;
+    }
+    .a{
+        color: #fff;
+        width: 20%;
+        padding-left: 20px;
+        height: 100vh;
+        background-image: linear-gradient(
+            30deg,
+            #11cf4d,
+            #055e21
+        );
+        border-top-right-radius: 90px;
+    }
+    /* Div header */
+    .a h2 {
+        padding: 40px 0 0 0;
+        cursor: pointer;
+        color:black
+    }
+    /* Div links */
+    .a a {
+        font-size: 25px;
+        color: #fff;
+        display: block;
+        padding: 12px;
+        padding-left: 30px;
+        text-decoration: none;
+        outline: none;
+    }
+    /* Div link on hover */
+    .a a:hover {
+        color: #56ff38;
+        background: #fff;
+        position: relative;
+        background-color: #fff;
+        border-top-left-radius: 22px;
+        border-bottom-left-radius: 22px;
+    }
+
+    .c {
+        width: 40%; /* 80% width for right section */
+        background-color: #f5f2e0db;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end; /* Align images to the right */
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .c img{
+        width: 500px;
+        height :auto;
+        margin:10px;
+        border: 2px solid black
+    }
+
+    .c h1{
+        font-size: 70px;
+        text-align: center;
+    }
+    .c p{
+        font-size: 20px;
+    }

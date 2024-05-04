@@ -1,0 +1,63 @@
+/* predict1.css */
+
+/* Reset default margin and padding */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and font family */
+body {
+        background-color: #f5f2e0db;
+    font-family: Arial, sans-serif;
+}
+
+/* Container styling */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Title styling */
+h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Prediction result styling */
+.prediction-result {
+    margin-bottom: 30px;
+}
+
+.prediction-result h2 {
+    display: inline-block;
+    font-size: 48px;
+    color: #4CAF50;
+}
+
+/* Production information styling */
+.production h2 {
+    font-size: 24px;
+    color: #666;
+}
+
+/* Button styling */
+a {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #45a049;
+}
